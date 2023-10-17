@@ -23,4 +23,4 @@ jobs:
         - name: masking a value
           run: echo "::add-mask::secret-string"
         - name: echo a secret
-          run: echo "secret string"
+          run: echo "secret-string"
