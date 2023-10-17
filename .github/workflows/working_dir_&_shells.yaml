@@ -27,7 +27,7 @@ jobs:
             run:
                 shell: pwsh
         steps:
-            - name: pring working directory
+            - name: print working directory
               run: |
                 Get-Location
                 dir
